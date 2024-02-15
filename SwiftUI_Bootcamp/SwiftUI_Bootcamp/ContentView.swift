@@ -7,7 +7,14 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    let person = Person(name: "John", age: 30)
+    
+    init() {
+        
+    
+    }
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -22,3 +29,7 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
+
+

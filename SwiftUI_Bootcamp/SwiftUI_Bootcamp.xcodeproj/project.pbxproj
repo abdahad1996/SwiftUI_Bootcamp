@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6541059D2B7C148600F87683 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6541059C2B7C148600F87683 /* State.swift */; };
+		654105B92B7DA7EE00F87683 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654105B82B7DA7EE00F87683 /* CounterView.swift */; };
+		654105BB2B7EB4B200F87683 /* ResultBuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654105BA2B7EB4B100F87683 /* ResultBuilderExample.swift */; };
 		6551016C2B6FD98B0097C093 /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6551016B2B6FD98B0097C093 /* SwiftUI_BootcampApp.swift */; };
 		6551016E2B6FD98B0097C093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6551016D2B6FD98B0097C093 /* ContentView.swift */; };
 		655101702B6FD98F0097C093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6551016F2B6FD98F0097C093 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6541059C2B7C148600F87683 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		654105B82B7DA7EE00F87683 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		654105BA2B7EB4B100F87683 /* ResultBuilderExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultBuilderExample.swift; sourceTree = "<group>"; };
 		655101682B6FD98B0097C093 /* SwiftUI_Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6551016B2B6FD98B0097C093 /* SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
 		6551016D2B6FD98B0097C093 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,12 +62,14 @@
 		6551016A2B6FD98B0097C093 /* SwiftUI_Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				654105BA2B7EB4B100F87683 /* ResultBuilderExample.swift */,
 				6551017A2B6FDAE90097C093 /* propertyWrappers */,
 				6551016B2B6FD98B0097C093 /* SwiftUI_BootcampApp.swift */,
 				6551016D2B6FD98B0097C093 /* ContentView.swift */,
 				6551016F2B6FD98F0097C093 /* Assets.xcassets */,
 				655101712B6FD98F0097C093 /* SwiftUI_Bootcamp.entitlements */,
 				655101722B6FD98F0097C093 /* Preview Content */,
+				654105B82B7DA7EE00F87683 /* CounterView.swift */,
 			);
 			path = SwiftUI_Bootcamp;
 			sourceTree = "<group>";
@@ -79,6 +87,7 @@
 			children = (
 				6551017C2B6FDB680097C093 /* Readme.md */,
 				6551017E2B6FE4490097C093 /* LogPropertyWrapper.swift */,
+				6541059C2B7C148600F87683 /* State.swift */,
 			);
 			path = propertyWrappers;
 			sourceTree = "<group>";
@@ -157,6 +166,9 @@
 				6551017F2B6FE4490097C093 /* LogPropertyWrapper.swift in Sources */,
 				6551016E2B6FD98B0097C093 /* ContentView.swift in Sources */,
 				6551016C2B6FD98B0097C093 /* SwiftUI_BootcampApp.swift in Sources */,
+				654105BB2B7EB4B200F87683 /* ResultBuilderExample.swift in Sources */,
+				6541059D2B7C148600F87683 /* State.swift in Sources */,
+				654105B92B7DA7EE00F87683 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +302,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = swiftui_bootcamp;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -328,6 +341,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = swiftui_bootcamp;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
