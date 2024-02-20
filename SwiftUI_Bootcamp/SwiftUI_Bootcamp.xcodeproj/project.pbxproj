@@ -62,7 +62,7 @@
 		6551016A2B6FD98B0097C093 /* SwiftUI_Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				654105BA2B7EB4B100F87683 /* ResultBuilderExample.swift */,
+				657839362B8550DA00D471AC /* ResultBuilder */,
 				6551017A2B6FDAE90097C093 /* propertyWrappers */,
 				6551016B2B6FD98B0097C093 /* SwiftUI_BootcampApp.swift */,
 				6551016D2B6FD98B0097C093 /* ContentView.swift */,
@@ -90,6 +90,14 @@
 				6541059C2B7C148600F87683 /* State.swift */,
 			);
 			path = propertyWrappers;
+			sourceTree = "<group>";
+		};
+		657839362B8550DA00D471AC /* ResultBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				654105BA2B7EB4B100F87683 /* ResultBuilderExample.swift */,
+			);
+			path = ResultBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
