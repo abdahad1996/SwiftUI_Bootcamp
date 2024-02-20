@@ -1,2 +1,2 @@
 
-you can read the Medium article https://abdulahd1996.medium.com/property-wrappers-in-swift-a833f38a25d here to understand the code 
+you can read the Medium article https://abdulahd1996.medium.com/understanding-result-builders-view-builders-in-swiftui-part-ac6f189f0261?postPublishedType=initial here to understand the code 
