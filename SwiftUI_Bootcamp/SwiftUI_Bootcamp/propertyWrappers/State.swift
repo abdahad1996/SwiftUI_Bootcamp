@@ -26,7 +26,7 @@ struct teststate: View {
 //                .id(value)
         }
         .padding()
-        .debug()
+//        .debug()
         
     }
 }
@@ -45,8 +45,8 @@ struct ChildOne: View {
     }
     
     var body: some View {
-        let _ = print(self.a, self.namespace, terminator: " -- ")
-        let _ = Self._printChanges()
+        let _ = print(self.a, self.namespace, terminator: " --X ")
+//        let _ = Self._printChanges()
 //        let _ = print(Mirror(reflecting: ChildOne(Int(5)).body))
 
         if isBool{
