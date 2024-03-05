@@ -27,48 +27,6 @@ struct Greeting: View {
         }
     }
 }
-//struct ViewBuilder: View {
-//    
-//     
-//    
-//    @State var isTrue = true
-//    @Namespace var namespace
-//    
-//    var body: some View {
-////        let _ = print("", self.namespace, terminator: " -- ")
-////        let _ = Self._printChanges()
-////        let _ = Self._logChanges()
-////        Text("Hello, worldssss!").debug()
-////        Image(systemName: "globe")
-////            .imageScale(.large)
-////            .background(Color.blue)
-////            .debug()
-////        VStack(spacing: 20) {
-////            Image(systemName: "globe")
-////                .imageScale(.large)
-////                .foregroundStyle(.tint)
-////            Text("Hello, worldsss!")
-////        }.debug()
-////        if isTrue {
-////            Text("Hello, worlds!")
-////        }else{
-////            EmptyView()
-////        }
-//        bye
-//            
-//    }
-//    
-//    @ViewBuilder var bye: some View { Text("And Goodbye!")
-//        Image(systemName: "hand.wave")
-//    }
-////    @ViewBuilder
-//// var customBody:some View {
-////        Image(systemName: "globe")
-////            .imageScale(.large)
-////            .foregroundStyle(.tint)
-////        Text("Hello, worldsss!")
-////    }
-//}
 
 struct ViewBuilderReturnEmptyView:View {
     
@@ -76,7 +34,7 @@ struct ViewBuilderReturnEmptyView:View {
         let _ = Self._logChanges()
             
         EmptyView()
-//            .debug()
+           .debugType()
     }
 }
 
@@ -98,17 +56,19 @@ struct ViewBuilderProprtyView: View {
 
     var body: some View {
         VStack {
-            Greeting()
-            spells
-            hello
-            Text("ViewBuilderProprtyView")
-            buildViews()
+//            Greeting()
+//            spells
+//            hello
+            Text("ViewBuilderProprtyViews")
+                .opacity(0.8)
+                .debugType()
+//            buildViews()
         }
     }
 }
 
 #Preview {
 //    ViewBuilder()
-//    ViewBuilderProprtyView()
-    ViewBuilderReturnEmptyView()
+    ViewBuilderProprtyView()
+//    ViewBuilderReturnEmptyView()
 }

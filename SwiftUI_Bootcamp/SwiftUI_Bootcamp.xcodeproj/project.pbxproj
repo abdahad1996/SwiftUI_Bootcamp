@@ -19,6 +19,8 @@
 		657839392B8561A400D471AC /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657839382B8561A400D471AC /* ViewBuilder.swift */; };
 		65B3A1BB2B8A930D004406B3 /* DebuggingSwiftUIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1BA2B8A930C004406B3 /* DebuggingSwiftUIViews.swift */; };
 		65B3A1C92B8BDF57004406B3 /* OpaqueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1C82B8BDF57004406B3 /* OpaqueType.swift */; };
+		65B3A1D22B8D2A4B004406B3 /* WhatsAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3A1D12B8D2A4B004406B3 /* WhatsAView.swift */; };
+		65EAD3092B8E1BAD00FEAAAD /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EAD3082B8E1BAD00FEAAAD /* ViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		657839382B8561A400D471AC /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
 		65B3A1BA2B8A930C004406B3 /* DebuggingSwiftUIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSwiftUIViews.swift; sourceTree = "<group>"; };
 		65B3A1C82B8BDF57004406B3 /* OpaqueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpaqueType.swift; sourceTree = "<group>"; };
+		65B3A1D12B8D2A4B004406B3 /* WhatsAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAView.swift; sourceTree = "<group>"; };
+		65EAD3082B8E1BAD00FEAAAD /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 		6551016A2B6FD98B0097C093 /* SwiftUI_Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				65EAD3072B8E1B9800FEAAAD /* ViewModifier */,
+				65B3A1D02B8D2A30004406B3 /* View */,
 				65B3A1CA2B8C35B5004406B3 /* DebuggingViews */,
 				65B3A1C72B8BDF3E004406B3 /* OpaqueType */,
 				657839372B85618600D471AC /* ViewBuilders */,
@@ -131,6 +137,22 @@
 				65B3A1BA2B8A930C004406B3 /* DebuggingSwiftUIViews.swift */,
 			);
 			path = DebuggingViews;
+			sourceTree = "<group>";
+		};
+		65B3A1D02B8D2A30004406B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65B3A1D12B8D2A4B004406B3 /* WhatsAView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65EAD3072B8E1B9800FEAAAD /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				65EAD3082B8E1BAD00FEAAAD /* ViewModifier.swift */,
+			);
+			path = ViewModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +232,10 @@
 				6551016C2B6FD98B0097C093 /* SwiftUI_BootcampApp.swift in Sources */,
 				65B3A1BB2B8A930D004406B3 /* DebuggingSwiftUIViews.swift in Sources */,
 				654105BB2B7EB4B200F87683 /* ResultBuilderExample.swift in Sources */,
+				65B3A1D22B8D2A4B004406B3 /* WhatsAView.swift in Sources */,
 				6541059D2B7C148600F87683 /* State.swift in Sources */,
 				654105B92B7DA7EE00F87683 /* CounterView.swift in Sources */,
+				65EAD3092B8E1BAD00FEAAAD /* ViewModifier.swift in Sources */,
 				657839392B8561A400D471AC /* ViewBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
