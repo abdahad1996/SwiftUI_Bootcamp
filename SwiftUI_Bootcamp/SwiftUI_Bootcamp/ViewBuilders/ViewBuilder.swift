@@ -8,54 +8,12 @@
 import SwiftUI
 
 
-struct ViewBuilderFunction: View {
-    
-    
-    @ViewBuilder func buildViews() -> some View {
-        Image(systemName: "hand.wave")
-        Text("ViewBuilderFunction")
-    }
-    
-    var body: some View {
-        HStack(spacing: 20) {
-            buildViews()
-                .debugType()
-        }
-    }
-}
 
 struct ViewBuilderReturnEmptyView:View {
     
     var body: some View {
         EmptyView()
            .debugType()
-    }
-}
-
-struct ViewBuilderProprtyView: View {
-    @ViewBuilder var spells: some View {
-        Text("Lumos")
-        Text("Obliviate")
-    }
-    
-    @ViewBuilder var hello: some View {
-            Image(systemName: "hand.wave")
-            Text("Hello")
-        }
-    
-    
-
-    var body: some View {
-        VStack {
-//            spells
-            hello
-            spells
-              
-//            Text("ViewBuilderProprtyViews")
-//                .opacity(0.8)
-//                .debugType()
-//            buildViews()
-        }  .debugType()
     }
 }
 
@@ -78,28 +36,17 @@ struct ViewBuilderNormal:View {
 
 struct ViewBuilderSingle:View {
     var body: some View {
-        Text("Hello")
-        .debugType()
-    }
-}
-
-
-struct ViewBuilderMultiViewWithoutLayout:View {
-    
-    @ViewBuilder func buildViews() -> some View {
-        Image(systemName: "hand.wave")
-        Divider()
-        Text("ViewBuilderFunction")
-    }
-    
-    var body: some View {
-        buildViews().background(.red)
-        Image(systemName: "hand.wave")
-        Text("Hello")
-        Image(systemName: "hand.wave")
+        VStack{
+            Text("Hello")
+            Image(systemName: "hand.wave")
            
+        } .debugType()
+        
     }
 }
+
+
+
 
 struct ViewBuilderConditional:View {
     @State var isTrue = true
@@ -121,9 +68,6 @@ struct ViewBuilderConditional:View {
     ViewBuilderConditional()
 }
 
-#Preview("ViewBuilderMultiViewWithoutLayout") {
-    ViewBuilderMultiViewWithoutLayout()
-}
 
 #Preview("ViewBuilderReturnEmptyView") {
     ViewBuilderReturnEmptyView()
@@ -136,11 +80,5 @@ struct ViewBuilderConditional:View {
 #Preview("ViewBuilderNormal") {
     ViewBuilderNormal()
 }
-#Preview("ViewBuilderFunction") {
-    ViewBuilderFunction()
-}
 
-#Preview("ViewBuilderProprtyView") {
-    ViewBuilderProprtyView()
-}
 
