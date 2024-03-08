@@ -61,14 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6501F2F12B9A37FB00A1469B /* OnChangeModifier */ = {
+		6501F2F12B9A37FB00A1469B /* EventModifier */ = {
 			isa = PBXGroup;
 			children = (
 				6501F2F22B9A381300A1469B /* OnChangeModifier.swift */,
 				6501F2F62B9AA24800A1469B /* OnSubmitModifier.swift */,
 				6501F2F42B9A440D00A1469B /* OnReceiveModifier.swift */,
 			);
-			path = OnChangeModifier;
+			path = EventModifier;
 			sourceTree = "<group>";
 		};
 		6551015F2B6FD98B0097C093 = {
@@ -90,7 +90,7 @@
 		6551016A2B6FD98B0097C093 /* SwiftUI_Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				6501F2F12B9A37FB00A1469B /* OnChangeModifier */,
+				6501F2F12B9A37FB00A1469B /* EventModifier */,
 				65EAD3072B8E1B9800FEAAAD /* ViewModifier */,
 				65B3A1D02B8D2A30004406B3 /* View */,
 				65B3A1CA2B8C35B5004406B3 /* DebuggingViews */,
