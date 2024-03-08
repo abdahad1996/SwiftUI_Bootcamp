@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6501F2F32B9A381300A1469B /* OnChangeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501F2F22B9A381300A1469B /* OnChangeModifier.swift */; };
+		6501F2F52B9A440D00A1469B /* OnReceiveModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501F2F42B9A440D00A1469B /* OnReceiveModifier.swift */; };
+		6501F2F72B9AA24800A1469B /* OnSubmitModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6501F2F62B9AA24800A1469B /* OnSubmitModifier.swift */; };
 		6541059D2B7C148600F87683 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6541059C2B7C148600F87683 /* State.swift */; };
 		654105B92B7DA7EE00F87683 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654105B82B7DA7EE00F87683 /* CounterView.swift */; };
 		654105BB2B7EB4B200F87683 /* ResultBuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654105BA2B7EB4B100F87683 /* ResultBuilderExample.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6501F2F22B9A381300A1469B /* OnChangeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeModifier.swift; sourceTree = "<group>"; };
+		6501F2F42B9A440D00A1469B /* OnReceiveModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnReceiveModifier.swift; sourceTree = "<group>"; };
+		6501F2F62B9AA24800A1469B /* OnSubmitModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnSubmitModifier.swift; sourceTree = "<group>"; };
 		6541059C2B7C148600F87683 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		654105B82B7DA7EE00F87683 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		654105BA2B7EB4B100F87683 /* ResultBuilderExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultBuilderExample.swift; sourceTree = "<group>"; };
@@ -55,6 +61,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6501F2F12B9A37FB00A1469B /* OnChangeModifier */ = {
+			isa = PBXGroup;
+			children = (
+				6501F2F22B9A381300A1469B /* OnChangeModifier.swift */,
+				6501F2F62B9AA24800A1469B /* OnSubmitModifier.swift */,
+				6501F2F42B9A440D00A1469B /* OnReceiveModifier.swift */,
+			);
+			path = OnChangeModifier;
+			sourceTree = "<group>";
+		};
 		6551015F2B6FD98B0097C093 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +90,7 @@
 		6551016A2B6FD98B0097C093 /* SwiftUI_Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				6501F2F12B9A37FB00A1469B /* OnChangeModifier */,
 				65EAD3072B8E1B9800FEAAAD /* ViewModifier */,
 				65B3A1D02B8D2A30004406B3 /* View */,
 				65B3A1CA2B8C35B5004406B3 /* DebuggingViews */,
@@ -240,6 +257,9 @@
 				6541059D2B7C148600F87683 /* State.swift in Sources */,
 				654105B92B7DA7EE00F87683 /* CounterView.swift in Sources */,
 				65EAD3092B8E1BAD00FEAAAD /* ViewModifier.swift in Sources */,
+				6501F2F52B9A440D00A1469B /* OnReceiveModifier.swift in Sources */,
+				6501F2F72B9AA24800A1469B /* OnSubmitModifier.swift in Sources */,
+				6501F2F32B9A381300A1469B /* OnChangeModifier.swift in Sources */,
 				657839392B8561A400D471AC /* ViewBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

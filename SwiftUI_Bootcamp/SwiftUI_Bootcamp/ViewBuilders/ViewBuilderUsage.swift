@@ -9,6 +9,23 @@ import Foundation
 import SwiftUI
 
 
+//struct SubView:View {
+//    var body: some View {
+//                Text("Placeholder")
+//            .font(.largeTitle)
+//    }
+//}
+//struct MainView:View {
+//    var SubView: some View {
+//        Text("Placeholder")
+//        return Text("Placeholder")
+//            .font(.largeTitle)
+//    }
+//    var body: some View {
+//        SubView
+//    }
+//}
+       
 struct ViewBuilderMultiViewWithoutLayout:View {
     
 //    @ViewBuilder func buildViews() -> some View {
